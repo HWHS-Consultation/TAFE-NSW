@@ -1,0 +1,8 @@
+{
+  "name": "riley_strategic_consultant",
+  "description": "Riley - A strategic consultant AI specialized in priority discovery and strategic planning for organizational departments.",
+  "endpoints": [
+    "run"
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,2294 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Which TAFE NSW campus do you work at?",
+            "options": [
+                "Bankstown",
+                "Campbelltown",
+                "Granville",
+                "Liverpool",
+                "Macquarie Fields",
+                "Miller",
+                "Padstow",
+                "Wetherill Park",
+                "Other"
+            ]
+        },
+        {
+            "id": "2",
+            "question": "How many years of experience do you have in the HWHS sector",
+            "options": [
+                "Less than 1 year",
+                "1 - 3 years",
+                "4 - 6 years",
+                "7 - 10 years",
+                "More than 10 years"
+            ]
+        },
+        {
+            "id": "3",
+            "question": "How long have you worked at TAFE NSW?",
+            "options": [
+                "Less than 1 year",
+                "1 - 3 years",
+                "4 - 6 years",
+                "7 - 10 years",
+                "More than 10 years"
+            ]
+        },
+        {
+            "id": "",
+            "question": "Do you have a primary geographic or LGA focus with the SWS region?",
+            "options": [
+                "Liverpool LGA",
+                "Campbelltown LGA",
+                "Camden LGA",
+                "Fairfield LGA",
+                "Bankstown LGA",
+                "Wollondilly LGA",
+                "Wingecarribee LGA",
+                "Whole SWS region"
+            ]
+        },
+        {
+            "id": "5",
+            "question": "Which education delivery areas are you aligned with?",
+            "options": [
+                "Nursing",
+                "Aboriginal Health",
+                "Health",
+                "Dental",
+                "Pathology",
+                "Childrens Services",
+                "Allied Health",
+                "Fitness, Sport & Recreation",
+                "Early Childhood Education & Care",
+                "Ageing",
+                "Disability",
+                "Community Services",
+                "Counselling",
+                "Mental Health",
+                "Health Services",
+                "Youth Work",
+                "Early Childhood",
+                "Alcohol & Other Drugs",
+                "Other TAFE NSW area"
+            ]
+        },
+        {
+            "id": "6",
+            "question": "Select which campus you mostly work at and then answer the following PROGRAMS OFFERED for that campus",
+            "options": [
+                "Bankstown",
+                "Campbelltown",
+                "Granville",
+                "Liverpool",
+                "Macquarie Fields",
+                "Miller",
+                "Padstow",
+                "Wetherill Park"
+            ]
+        },
+        {
+            "id": "7",
+            "question": "Based on your experience, what percentage of your students typically find employment in the health sector?",
+            "options": [
+                "0%",
+                "15 - 10%",
+                "11% - 25%",
+                "26% - 50%",
+                "51% - 75%",
+                "75% - 100%",
+                "Don't know"
+            ]
+        },
+        {
+            "id": "8",
+            "question": "Based on your experience, what are the biggest barriers students face in finding employment?",
+            "options": [
+                "Lack of work experience",
+                "Graduate Work Readiness",
+                "Skills gaps in emerging areas",
+                "Transport challenges",
+                "Location challenges",
+                "Language/communication barriers",
+                "Competition for positions",
+                "Employer perceptions of TAFE qualifications",
+                "Lack of industry connections",
+                "Insufficient local job opportunities",
+                "Skills gaps between training and employer expectations",
+                "Employer preferences for experienced workers",
+                "Inadequate work placement opportunities during training",
+                "Cultural barriers in some workplaces",
+                "Insufficient employer awareness of TAFE programs",
+                "Other"
+            ]
+        },
+        {
+            "id": "9",
+            "question": "Which campuses have limited HWHS program offerings that could be expanded?",
+            "options": []
+        },
+        {
+            "id": "10",
+            "question": "Which HWHS programs would benefit from being offered at additional campus locations? *",
+            "options": []
+        },
+        {
+            "id": "11",
+            "question": "From your experience, what do health sector employers most need from TAFE NSW HWHS graduates?",
+            "options": [
+                "Technical skills",
+                "Clinical skills",
+                "Communication skills",
+                "Cultural competency",
+                "Work Readiness and Attitude",
+                "Problem-solving abilities",
+                "Teamwork skills",
+                "Digital literacy",
+                "Customer service skills",
+                "Other"
+            ]
+        },
+        {
+            "id": "12",
+            "question": "Based on employer feedback, graduate employment outcomes, and industry engagement, how well do current TAFE NSW HWHS programs prepare graduates for immediate employment?",
+            "options": [
+                "Excellent - graduates are work-ready from day one according to employers",
+                "Good - graduates need minimal additional training per industry feedback",
+                "Adequate - graduates need moderate additional training according to employers",
+                "Poor - graduates need significant additional training per industry reports",
+                "Inadequate - graduates are not prepared for the role according to employer feedback",
+                "Unknown/Not applicable to my role"
+            ]
+        },
+        {
+            "id": "13",
+            "question": "In your opinion, are HWHS graduates WORK READY for relevant job roles when they complete our programs? *",
+            "options": [
+                "Yes",
+                "No",
+                "Some"
+            ]
+        },
+        {
+            "id": "14",
+            "question": "What HWHS programs or qualifications are urgently needed in SWS but not currently offered by TAFE NSW?",
+            "options": []
+        },
+        {
+            "id": "15",
+            "question": "What emerging HWHS roles require new training programs to be developed?",
+            "options": []
+        },
+        {
+            "id": "16",
+            "question": "Based on your knowledge, how well do current HWHS program schedules meet student and industry needs at your campus?",
+            "options": [
+                "Excellent",
+                "Good",
+                "Moderate",
+                "Poor",
+                "Very poor",
+                "Don't Know"
+            ]
+        },
+        {
+            "id": "17",
+            "question": "In your opinion, what delivery timing options are most needed for HWHS programs? *",
+            "options": [
+                "Traditional day programs (9am-3pm)",
+                "Evening programs (after 5pm)",
+                "Weekend programs",
+                "Intensive block delivery (full days over shorter periods)",
+                "Flexible online delivery",
+                "Part-time spread over extended periods",
+                "Fast-track intensive programs",
+                "Seasonal programs (aligned with industry cycles)",
+                "School holiday programs",
+                "Workplace-based delivery timing"
+            ]
+        },
+        {
+            "id": "18",
+            "question": "Based on your understanding, which student groups face the most scheduling barriers?",
+            "options": [
+                "Working parents",
+                "Shift workers in healthcare",
+                "Career changers currently employed",
+                "International students",
+                "Students in remote areas",
+                "Indigenous students",
+                "Students with disabilities",
+                "Young people balancing work and study",
+                "Mature age learners",
+                "Students with caring responsibilities"
+            ]
+        },
+        {
+            "id": "19",
+            "question": "Based on your experience with HWHS training delivery and industry feedback, what training delivery modes are most effective for the HWHS workforce?",
+            "options": [
+                "Traditional classroom learning",
+                "Online/e-learning modules",
+                "Blended learning (online + face-to-face)",
+                "Workplace-based training",
+                "Simulation and practical labs",
+                "Peer-to-peer learning",
+                "Mentoring programs",
+                "Short-course intensives",
+                "Microcredentials/Microskills"
+            ]
+        },
+        {
+            "id": "20",
+            "question": "In your opinion, what are the top 3 training priorities for your sector over the next 3-5 years?",
+            "options": []
+        },
+        {
+            "id": "21",
+            "question": "In your opinion, how appropriate are current entry requirements for HWHS programs?",
+            "options": [
+                "Excellent - entry requirements perfectly match industry and student needs",
+                "Good - entry requirements generally appropriate",
+                "Moderate - some entry requirements create unnecessary barriers",
+                "Poor - entry requirements often prevent suitable candidates from enrolling",
+                "Very poor - entry requirements are major barriers to participation"
+            ]
+        },
+        {
+            "id": "22",
+            "question": "In your opinion, what additional support services could help these student groups overcome scheduling barriers?",
+            "options": []
+        },
+        {
+            "id": "23",
+            "question": "In your opinion, which groups face the most significant entry barriers to HWHS programs?",
+            "options": [
+                "Aboriginal and Torres Strait Islander students",
+                "CALD students with language barriers",
+                "Mature age career changers",
+                "Students without formal qualifications",
+                "Students with prior VET experience",
+                "Students with work experience but no formal qualifications",
+                "International students",
+                "Students with disabilities",
+                "Students from low socioeconomic backgrounds"
+            ]
+        },
+        {
+            "id": "24",
+            "question": "In your opinion, which of the following would improve access to HWHS careers?",
+            "options": [
+                "Foundation/bridging programs for entry",
+                "Recognition of Prior Learning (RPL) programs",
+                "Work experience to formal qualification pathways",
+                "Language and literacy support programs",
+                "Aboriginal and Torres Strait Islander pre-entry programs",
+                "Digital literacy preparation programs",
+                "Career exploration and guidance programs",
+                "Mentoring and support programs",
+                "Financial support and scholarship programs",
+                "Flexible part-time entry pathways"
+            ]
+        },
+        {
+            "id": "25",
+            "question": "Based on your experience with HWHS training delivery and student and industry feedback, how critical is cultural competency training for the HWHS workforce?",
+            "options": [
+                "Essential - all workers must have comprehensive training per industry requirements",
+                "Very important - most workers need substantial training according to employers",
+                "Important - basic training for all, advanced for some per industry feedback",
+                "Somewhat important - helpful but not critical according to sector feedback",
+                "Not a priority - current approaches are adequate per employer input",
+                "Unknown/Not applicable to my role"
+            ]
+        },
+        {
+            "id": "26",
+            "question": "Based on your knowledge of the sector, rate the severity of skills shortages in Nursing & Health Services discipline in NSW?",
+            "subQuestions": [
+                {
+                    "title": "Registered Nurse",
+                    "options": [
+                        "1 - No Shortages",
+                        "2 - Minimal Shortages",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Enrolled Nurse",
+                    "options": [
+                        "1 - No Shortages",
+                        "2 - Minimal Shortages",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Midwife",
+                    "options": [
+                        "1 - No Shortages",
+                        "2 - Minimal Shortages",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Health Administration",
+                    "options": [
+                        "1 - No Shortages",
+                        "2 - Minimal Shortages",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Health Services",
+                    "options": [
+                        "1 - No Shortages",
+                        "2 - Minimal Shortages",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "27",
+            "question": "Based on your knowledge of the sector, rate the severity of skills shortages in Aged Care and Disability disciplines in NSW?",
+            "subQuestions": [
+                {
+                    "title": "Aged Care Workers",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Disability Support Workers",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Individual Support",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "28",
+            "question": "Based on your knowledge of the sector, rate the severity of skills shortages in Community Services and Mental Health disciplines in NSW?",
+            "subQuestions": [
+                {
+                    "title": "Community Services Workers",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Social Workers",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Alcohol & Other Drugs",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Individual Support",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Mental Health",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Trauma-Informed Care",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Counselling",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "29",
+            "question": "Based on your knowledge of the sector, rate the severity of skills shortages in Children and Youth Services disciplines in NSW?",
+            "subQuestions": [
+                {
+                    "title": "Early Childhood Educators",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Youth Workers",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "30",
+            "question": "Based on your knowledge of the sector, rate the severity of skills shortages in Sport & Recreation disciplines in NSW?",
+            "subQuestions": [
+                {
+                    "title": "Outdoor Leadership",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Fitness",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Sport & Recreation",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                },
+                {
+                    "title": "Massage",
+                    "options": [
+                        "1 - No Shortage",
+                        "2 - Minimal Shortage",
+                        "3 - Moderate Shortage",
+                        "4 - Significant Shortage",
+                        "5 - Critical Shortage"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "31",
+            "question": "Based on your experience with industry partners and graduate employment outcomes, how difficult is it for employers to recruit qualified staff in the HWHS sectors you work with?",
+            "options": [
+                "Very easy - abundant qualified candidates",
+                "Somewhat easy - adequate candidate pool",
+                "Moderate - some challenges reported but manageable",
+                "Difficult - limited qualified candidates",
+                "Very difficult - severe candidate shortage"
+            ]
+        },
+        {
+            "id": "32",
+            "question": "Based on your knowledge, please rate the HWHS program areas alignment with SWS workforce demand?",
+            "subQuestions": [
+                {
+                    "title": "Registered Nursing",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Enrolled Nursing",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Midwifery",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Health Administration",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Health Services",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Allied Health Assistants",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Audiometry",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Dental",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Pharmacy",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Aged Care",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Disability Support",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Individual Support",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Community Services",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Mental Health",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Alcohol & Other Drugs",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Trauma-Informed Care & Practice",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Counselling",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Early Childhood Education",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Youth Work",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Leisure & Health",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Sport & Recreation",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Aboriginal Health",
+                    "options": [
+                        "1 Very Poor Alignment",
+                        "2 Poor Alignment",
+                        "3 Moderate Alignment",
+                        "4 Good Alignment",
+                        "5 Excellent Alignment",
+                        "Don't Know"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "33",
+            "question": "How appropriate is the current geographic distribution of HWHS programs across South West Sydney?",
+            "options": [
+                "Excellent - programs well distributed to meet regional needs",
+                "Good - mostly appropriate distribution with minor gaps",
+                "Moderate - some geographic gaps affecting access",
+                "Poor - significant geographic gaps limiting student access",
+                "Very poor - major geographic maldistribution of programs"
+            ]
+        },
+        {
+            "id": "34",
+            "question": "In your opinion, which campuses are best positioned for expansion of relevant HWHS programs based on:",
+            "subQuestions": [
+                {
+                    "title": "Bankstown",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                },
+                {
+                    "title": "Campbelltown",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                },
+                {
+                    "title": "Granville",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                },
+                {
+                    "title": "Liverpool",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                },
+                {
+                    "title": "Macquarie Fields",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                },
+                {
+                    "title": "Miller",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                },
+                {
+                    "title": "Padstow",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                },
+                {
+                    "title": "Wetherill Park",
+                    "options": [
+                        "Industry partnerships",
+                        "Student population",
+                        "Transport accessibility",
+                        "Infrastructure capacity",
+                        "Employer demand"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "35",
+            "question": "In your opinion, how current and industry-relevant are our HWHS programs?",
+            "options": [
+                "Excellent - content and delivery are cutting-edge and highly relevant",
+                "Good - content and delivery are current and mostly relevant",
+                "Moderate - content and delivery are adequate but need some updates",
+                "Poor - content and delivery are outdated and need significant revision",
+                "Very poor - content and delivery are severely outdated and irrelevant"
+            ]
+        },
+        {
+            "id": "36",
+            "question": "In your opinion, what aspects of HWHS programs need updating to meet current industry standards?",
+            "options": [
+                "Technology integration and digital skills",
+                "Cultural competency and safety",
+                "Trauma-informed practice approaches",
+                "NDIS and disability sector changes",
+                "Mental health and wellbeing focus",
+                "Evidence-based practice methods",
+                "Quality improvement techniques",
+                "Leadership and supervision skills",
+                "Infection prevention and control",
+                "Workplace health and safety",
+                "Home and Community care",
+                "Communication and interpersonal skills",
+                "Ethical decision-making",
+                "None"
+            ]
+        },
+        {
+            "id": "37",
+            "question": "Based on your knowledge of the sector, rate the severity of the following identified PROFESSIONAL AND SOFT skills gaps in the health sector",
+            "subQuestions": [
+                {
+                    "title": "Communication with diverse communities",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Cultural competency and safety",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Trauma-informed practice",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Person-centred care approaches",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Critical thinking and problem-solving",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Leadership and supervision",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Conflict resolution",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Collaborative teamwork",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Professional boundaries",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Ethical decision-making",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Empathy",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Problem-solving",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Language, literacy, numeracy (LLN)",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Self-awareness",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Active listening",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Feedback (giving and receiving)",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "38",
+            "question": "Based on your knowledge of the sector, rate the severity of the following identified TECHNICAL skills gaps in the health sector",
+            "subQuestions": [
+                {
+                    "title": "Digital health literacy",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Health informatics",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Data interpretation",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "General digital & technology literacy",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Electronic health records",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Telehealth delivery",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Medical device technology",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Data analysis and reporting",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Quality improvement methods",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Risk assessment and management",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Medication management",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Infection prevention and control",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "39",
+            "question": "Based on your knowledge of the sector, rate the severity of the following identified CLINICAL skills gaps in the health sector",
+            "subQuestions": [
+                {
+                    "title": "Evidence-Based Practice",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Cultural Competency & Safety",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Clinical Reasoning",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Work Health & Safety",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Infection Prevention & Control",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                },
+                {
+                    "title": "Medical Safety & Management",
+                    "options": [
+                        "1 - No Gaps",
+                        "2 - Minor Gaps",
+                        "3 - Moderate Gaps",
+                        "4 - Significant Gaps",
+                        "5 - Critical Gaps"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": 40,
+            "question": "What new skills or competencies have become essential in the last 3 years that weren't previously required?",
+            "options": []
+        },
+        {
+            "id": 41,
+            "question": "What skills do you predict will be essential for the workplace in the next 5 years that aren't currently emphasised in training programs?",
+            "options": []
+        },
+        {
+            "id": 42,
+            "question": "Which industry-specific specialisations, would you like to see added to existing programs?",
+            "options": [
+                "Dementia care specialisation",
+                "Mental health first aid",
+                "NDIS support coordination",
+                "Paediatric disability support",
+                "Cultural liaison roles",
+                "Telehealth delivery",
+                "Digital health literacy",
+                "Trauma-informed practice",
+                "Aboriginal health worker specialisation",
+                "Aged care leadership",
+                "Community mental health",
+                "Youth crisis intervention",
+                "Family support services",
+                "Practice Management",
+                "Medical Assistant"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "How would you rate your campus's current connections with local health services?",
+            "options": [
+                "Excellent - Strong, active partnerships",
+                "Good - Regular contact and some partnerships",
+                "Fair - Occasional contact, limited partnerships",
+                "Poor - Very little connection",
+                "Don't know"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "What types of partnerships with health organisations would benefit your students most?",
+            "options": [
+                "Work placement opportunities",
+                "Guest speakers from industry",
+                "Site visits to health facilities",
+                "Joint training programs",
+                "Equipment/resource sharing",
+                "Career pathway information",
+                "Mentorship programs",
+                "Other: ___________________"
+            ]
+        },
+        {
+            "id": "45",
+            "question": "Based on your experience, rate the effectiveness of current industry partnerships at your campus for these activities",
+            "subQuestions": [
+                {
+                    "title": "Work placement availability",
+                    "options": [
+                        "1 Very Poor",
+                        "2 Poor",
+                        "3 Moderate",
+                        "4 Good",
+                        "5 Excellent"
+                    ]
+                },
+                {
+                    "title": "Quality of placement supervision",
+                    "options": [
+                        "1 Very Poor",
+                        "2 Poor",
+                        "3 Moderate",
+                        "4 Good",
+                        "5 Excellent"
+                    ]
+                },
+                {
+                    "title": "Employer engagement in training design",
+                    "options": [
+                        "1 Very Poor",
+                        "2 Poor",
+                        "3 Moderate",
+                        "4 Good",
+                        "5 Excellent"
+                    ]
+                },
+                {
+                    "title": "Graduate employment opportunities",
+                    "options": [
+                        "1 Very Poor",
+                        "2 Poor",
+                        "3 Moderate",
+                        "4 Good",
+                        "5 Excellent"
+                    ]
+                },
+                {
+                    "title": "Industry feedback on graduate quality",
+                    "options": [
+                        "1 Very Poor",
+                        "2 Poor",
+                        "3 Moderate",
+                        "4 Good",
+                        "5 Excellent"
+                    ]
+                },
+                {
+                    "title": "Professional development support",
+                    "options": [
+                        "1 Very Poor",
+                        "2 Poor",
+                        "3 Moderate",
+                        "4 Good",
+                        "5 Excellent"
+                    ]
+                },
+                {
+                    "title": "Equipment and resource sharing",
+                    "options": [
+                        "1 Very Poor",
+                        "2 Poor",
+                        "3 Moderate",
+                        "4 Good",
+                        "5 Excellent"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "46",
+            "question": "Based on your experience, how effectively does TAFE NSW engage with SWS employers in HWHS program design and delivery?",
+            "options": [
+                "Excellent - strong ongoing collaboration in program development",
+                "Good - regular industry input into program design",
+                "Moderate - some industry engagement but could be enhanced",
+                "Poor - limited industry involvement in program development",
+                "Very poor - minimal industry engagement in program design"
+            ]
+        },
+        {
+            "id": "47",
+            "question": "In your opinion, how effectively does your HWHS team at your campus engage with SWS employers in HWHS program design and delivery?",
+            "options": [
+                "Excellent - strong ongoing collaboration in program development",
+                "Good - regular industry input into program design",
+                "Moderate - some industry engagement but could be enhanced",
+                "Poor - limited industry involvement in program development",
+                "Very poor - minimal industry engagement in program design"
+            ]
+        },
+        {
+            "id": "48",
+            "question": "What do you think would strengthen industry engagement with HWHS programs?",
+            "options": [
+                "More frequent consultation on program content",
+                "Simplified partnership processes",
+                "Flexible timing for industry involvement",
+                "Clearer communication of partnership benefits",
+                "Technology platforms for easier collaboration",
+                "Recognition and rewards for participating employers",
+                "Shared professional development opportunities",
+                "Co-location of training with industry facilities",
+                "Regular industry briefings on program updates"
+            ]
+        },
+        {
+            "id": "49",
+            "question": "Based on your experience, how effectively does TAFE NSW engage with SWS employers in HWHS program design and delivery?",
+            "options": [
+                "Excellent - strong ongoing collaboration in program development",
+                "Good - regular industry input into program design",
+                "Moderate - some industry engagement but could be enhanced",
+                "Poor - limited industry involvement in program development",
+                "Very poor - minimal industry engagement in program design"
+            ]
+        },
+        {
+            "id": "50",
+            "question": "In your opinion, how effectively does your HWHS team at your campus engage with SWS employers in HWHS program design and delivery?",
+            "options": [
+                "Excellent - strong ongoing collaboration in program development",
+                "Good - regular industry input into program design",
+                "Moderate - some industry engagement but could be enhanced",
+                "Poor - limited industry involvement in program development",
+                "Very poor - minimal industry engagement in program design"
+            ]
+        },
+        {
+            "id": "51",
+            "question": "What do you think would strengthen industry engagement with HWHS programs?",
+            "options": [
+                "More frequent consultation on program content",
+                "Simplified partnership processes",
+                "Flexible timing for industry involvement",
+                "Clearer communication of partnership benefits",
+                "Technology platforms for easier collaboration",
+                "Recognition and rewards for participating employers",
+                "Shared professional development opportunities",
+                "Co-location of training with industry facilities",
+                "Regular industry briefings on program updates"
+            ]
+        },
+        {
+            "id": "52",
+            "question": "In your opinion, which of the following opportunities for facility sharing with industry partners would benefit students, teachers and the HWHS faculty?",
+            "options": [
+                "Shared clinical training with hospitals",
+                "Joint aged care training facilities",
+                "Community health centre partnerships",
+                "Early childhood centre collaborations",
+                "Mental health service training partnerships",
+                "Disability service provider facilities",
+                "Equipment sharing arrangements",
+                "Professional development spaces",
+                "Research and innovation hubs"
+            ]
+        },
+        {
+            "id": "53",
+            "question": "In your opinion, how responsive is the HWHS faculty at TAFE NSW to changing industry requirements?",
+            "options": [
+                "Excellent - very quick to adapt to industry changes",
+                "Good - responds well to most industry changes",
+                "Moderate - responds to some changes but could be faster",
+                "Poor - slow to respond to industry changes",
+                "Very poor - very slow or unresponsive to industry changes"
+            ]
+        },
+        {
+            "id": "54",
+            "question": "Which of the following regulatory or policy changes do you think will significantly impact workforce requirements and training programs?",
+            "options": [
+                "NDIS scheme evolution and expansion",
+                "Aged care quality standards and staffing ratios",
+                "Mental health service integration",
+                "Aboriginal cultural safety requirements",
+                "Digital health interoperability standards",
+                "Professional registration changes",
+                "Workplace health and safety updates",
+                "Privacy and data protection laws",
+                "Immigration and skilled migration policies",
+                "Recognition of prior learning frameworks"
+            ]
+        },
+        {
+            "id": "55",
+            "question": "What are your campus's greatest strengths?",
+            "subQuestions": [
+                {
+                    "title": "Modern facilities and equipment",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Experienced, industry-connected staff",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Strong student support services",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Flexible program delivery",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Diverse, multicultural student body",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Good industry partnerships",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Innovation in teaching methods",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Community engagement",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "56",
+            "question": "What improvements would most benefit your campus?",
+            "subQuestions": [
+                {
+                    "title": "Updated equipment/technology",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "More industry partnerships",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Better transport/parking",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Additional staff/resources",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Enhanced student services",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Facility upgrades",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Professional development opportunities",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                },
+                {
+                    "title": "Stronger community connections",
+                    "options": [
+                        "Bankstown",
+                        "Campbelltown",
+                        "Granville",
+                        "Liverpool",
+                        "Macquarie Fields",
+                        "Miller",
+                        "Padstow",
+                        "Wetherill Park",
+                        "Not Applicable"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "57",
+            "question": "Select which campus you mostly work at and then answer the following CAMPUS INFRASTRUCTURE for that campus",
+            "options": [
+                "Bankstown",
+                "Campbelltown",
+                "Granville",
+                "Liverpool",
+                "Macquarie Fields",
+                "Miller",
+                "Padstow",
+                "Wetherill Park",
+                "Not Applicable to my role"
+            ]
+        },
+        {
+            "id": "58",
+            "question": "Select which campus you mostly work at and then answer the following Campus Utilisation for that campus",
+            "options": [
+                "Bankstown",
+                "Campbelltown",
+                "Granville",
+                "Liverpool",
+                "Macquarie Fields",
+                "Miller",
+                "Padstow",
+                "Wetherill Park",
+                "Not applicable to my role"
+            ]
+        },
+        {
+            "id": "59",
+            "question": "Select which campus you mostly work at and then answer the following ACCESSIBILITY & CULTURAL INCLUSIVE facilities for that campus",
+            "options": [
+                "Bankstown",
+                "Campbelltown",
+                "Granville",
+                "Liverpool",
+                "Macquarie Fields",
+                "Miller",
+                "Padstow",
+                "Wetherill Park",
+                "Not applicable to my role"
+            ]
+        },
+        {
+            "id": "60",
+            "question": "Could your campus facilities be used to support health sector training in new ways?",
+            "options": [
+                "Yes, significant potential",
+                "Yes, some potential",
+                "Maybe, would need to explore",
+                "No, not really suitable",
+                "Don't know"
+            ]
+        },
+        {
+            "id": "61",
+            "question": "Based on your experience with your campus, what do you think the current capacity to meet HWHS training demand is?",
+            "subQuestions": [
+                {
+                    "title": "Bankstown",
+                    "options": [
+                        "Significantly exceeds demand",
+                        "Meets current demand",
+                        "Just meets current demand",
+                        "Below current demand",
+                        "Significantly below demand",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Campbelltown",
+                    "options": [
+                        "Significantly exceeds demand",
+                        "Meets current demand",
+                        "Just meets current demand",
+                        "Below current demand",
+                        "Significantly below demand",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Liverpool",
+                    "options": [
+                        "Significantly exceeds demand",
+                        "Meets current demand",
+                        "Just meets current demand",
+                        "Below current demand",
+                        "Significantly below demand",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Macquarie Fields",
+                    "options": [
+                        "Significantly exceeds demand",
+                        "Meets current demand",
+                        "Just meets current demand",
+                        "Below current demand",
+                        "Significantly below demand",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Miller",
+                    "options": [
+                        "Significantly exceeds demand",
+                        "Meets current demand",
+                        "Just meets current demand",
+                        "Below current demand",
+                        "Significantly below demand",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Padstow",
+                    "options": [
+                        "Significantly exceeds demand",
+                        "Meets current demand",
+                        "Just meets current demand",
+                        "Below current demand",
+                        "Significantly below demand",
+                        "Don't Know"
+                    ]
+                },
+                {
+                    "title": "Wetherill Park",
+                    "options": [
+                        "Significantly exceeds demand",
+                        "Meets current demand",
+                        "Just meets current demand",
+                        "Below current demand",
+                        "Significantly below demand",
+                        "Don't Know"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "62",
+            "question": "Based on your experience with your campus, how well do you think the current facilities support quality HWHS training delivery?",
+            "subQuestions": [
+                {
+                    "title": "Bankstown",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Campbelltown",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Liverpool",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Macquarie Fields",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Miller",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Padstow",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Wetherill Park",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "63",
+            "question": "Based on your experience with your campus, please rate the level of transport accessibility to the campus",
+            "subQuestions": [
+                {
+                    "title": "Bankstown",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Campbelltown",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Liverpool",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Macquarie Fields",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Miller",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Padstow",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Wetherill Park",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Adequate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "64",
+            "question": "Based on your experience with your campus, please rate the current level of technology infrastructure at the campus",
+            "subQuestions": [
+                {
+                    "title": "Bankstown",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Moderate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Campbelltown",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Moderate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Liverpool",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Moderate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Macquarie Fields",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Moderate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Miller",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Moderate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Padstow",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Moderate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                },
+                {
+                    "title": "Wetherill Park",
+                    "options": [
+                        "Excellent",
+                        "Good",
+                        "Moderate",
+                        "Poor",
+                        "Inadequate",
+                        "Unknown",
+                        "Not applicable to my role"
+                    ]
+                }
+            ],
+            "type": "matrix"
+        },
+        {
+            "id": "65",
+            "question": "In your opinion, what infrastructure changes are needed to support increased HWHS student numbers at your campus?",
+            "type": "open"
+        },
+        {
+            "id": "66",
+            "question": "Do you think that more specialised centres or Centres of Excellence in the SWS region would enhance HWHS training quality and delivery?",
+            "options": [
+                "Yes",
+                "No",
+                "Not Sure"
+            ],
+            "type": "single"
+        },
+        {
+            "id": "67",
+            "question": "Which of the following priority infrastructure investments for HWHS training would you like to see in the SWS region over the next 5 years?",
+            "options": [
+                "Advanced clinical simulation centres",
+                "Dedicated aged care training facilities",
+                "Mental health practice environments",
+                "Early childhood demonstration centres",
+                "Disability support training spaces",
+                "Technology-integrated smart classrooms",
+                "Virtual and augmented reality labs",
+                "Industry-standard equipment upgrades",
+                "Flexible multi-purpose training spaces",
+                "Cultural practice and ceremony spaces",
+                "Dedicated home care training facilities",
+                "Enhanced accessibility features",
+                "Expanded parking facilities",
+                "Student accommodation",
+                "Improved food service facilities"
+            ],
+            "type": "multi",
+            "maxSelections": 5
+        },
+        {
+            "id": "68",
+            "question": "Which of the following technology infrastructure items do you think is a priority for your campus in the next 5 years?",
+            "options": [
+                "High-speed internet and WiFi capacity",
+                "Electronic health record training systems",
+                "Telehealth training platforms",
+                "Virtual reality training applications",
+                "Mobile device integration",
+                "Digital assessment platforms",
+                "Simulation software and equipment",
+                "Assistive technology for accessibility"
+            ],
+            "type": "multi",
+            "maxSelections": 5
+        },
+        {
+            "id": "69",
+            "question": "What new programs or services would you like to see developed to better serve the health sector?",
+            "type": "open"
+        },
+        {
+            "id": "70",
+            "question": "If you could change one thing to improve collaboration between TAFE NSW HWHS and the industry, what would it be?",
+            "type": "open"
+        },
+        {
+            "id": "71",
+            "question": "What opportunities do you see for TAFE NSW HWHS faculty to play a bigger role in the health and wellbeing education in South Western Sydney?",
+            "type": "open"
+        },
+        {
+            "id": "72",
+            "question": "Any other thoughts, ideas, or suggestions for the SWS Roadmap project?",
+            "type": "open"
+        },
+        {
+            "id": "73",
+            "question": "Would you be interested in participating in future workshops or planning sessions for the SWS Roadmap project?",
+            "options": [
+                "Yes, very interested",
+                "Maybe, depending on timing/topic",
+                "No, prefer to receive updates only",
+                "No further interest"
+            ],
+            "type": "single"
+        },
+        {
+            "id": "74",
+            "question": "Have we missed anything that you would like to add?",
+            "type": "open"
+        }
+    ]
+}

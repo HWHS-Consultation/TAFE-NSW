@@ -1,0 +1,19 @@
+# Core Python
+fastapi
+uvicorn
+pydantic
+python-dotenv
+litellm
+
+# Google ADK (you must install from the correct source, e.g. PyPI or internal repo)
+google-adk  # Replace with the actual package name if different
+
+# Selenium for scraping (used in old-agent.py)
+selenium
+webdriver-manager
+
+supabase
+
+# For Chrome WebDriver (ensure Chrome is installed)
+
+# Optional: logging is part of stdlib, no need to list

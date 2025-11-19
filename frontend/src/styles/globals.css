@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Animation classes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Custom component styles */
+.consultation-card {
+  @apply bg-white rounded-xl shadow-sm border hover:shadow-md transition-shadow cursor-pointer p-6;
+}
+
+.consultation-card:hover {
+  transform: translateY(-1px);
+}
+
+.message-bubble {
+  @apply px-4 py-3 rounded-lg max-w-xs lg:max-w-md;
+}
+
+.message-bubble.user {
+  @apply bg-blue-600 text-white ml-auto;
+}
+
+.message-bubble.ai {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.priority-item {
+  @apply border border-gray-200 rounded-lg p-4 bg-white hover:shadow-sm transition-shadow;
+}
+
+.risk-item {
+  @apply border rounded-lg p-4 transition-colors;
+}
+
+.risk-item.critical {
+  @apply bg-red-50 border-red-200;
+}
+
+.risk-item.high {
+  @apply bg-orange-50 border-orange-200;
+}
+
+.risk-item.medium {
+  @apply bg-yellow-50 border-yellow-200;
+}
+
+.risk-item.low {
+  @apply bg-green-50 border-green-200;
+}
+
+/* Progress bar styles */
+.progress-bar {
+  @apply bg-gray-200 rounded-full h-2;
+}
+
+.progress-fill {
+  @apply h-2 rounded-full transition-all duration-300;
+}
+
+/* Button variants */
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-200 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 focus:ring-2 focus:ring-gray-200 transition-colors;
+}
+
+.btn-success {
+  @apply bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 focus:ring-2 focus:ring-green-200 transition-colors;
+}
+
+.btn-danger {
+  @apply bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 focus:ring-2 focus:ring-red-200 transition-colors;
+}
+
+/* Form styles */
+.form-input {
+  @apply w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:border-transparent;
+}
+
+.form-input:focus {
+  @apply ring-blue-500;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-gray-700 mb-2;
+}
+
+.form-select {
+  @apply w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
+
+/* Card styles */
+.dashboard-card {
+  @apply bg-white rounded-lg shadow-sm border p-6;
+}
+
+.stats-card {
+  @apply bg-white rounded-lg shadow-sm border p-6 hover:shadow-md transition-shadow;
+}
+
+/* Status badges */
+.status-badge {
+  @apply px-2 py-1 text-xs rounded-full;
+}
+
+.status-badge.completed {
+  @apply bg-green-100 text-green-800;
+}
+
+.status-badge.in-progress {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.status-badge.active {
+  @apply bg-blue-100 text-blue-800;
+}
+
+/* Responsive utilities */
+@media (max-width: 640px) {
+  .consultation-card {
+    @apply p-4;
+  }
+  
+  .message-bubble {
+    @apply max-w-xs;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+  
+  body {
+    background: white;
+  }
+  
+  .consultation-card,
+  .dashboard-card {
+    box-shadow: none;
+    border: 1px solid #e5e7eb;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .consultation-card {
+    @apply border-2 border-gray-800;
+  }
+  
+  .btn-primary {
+    @apply bg-black text-white border-2 border-black;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
