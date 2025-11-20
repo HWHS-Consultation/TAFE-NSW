@@ -273,7 +273,7 @@ root_agent = Agent(
 
     Your goal is to systematically gather stakeholder context through Sections 1-7, then provide comprehensive strategic analysis and recommendations with [PLAN_GENERATED] tags and HTML formatting in Section 8.
     """,
-    model=LiteLlm("gemini/gemini-2.5-flash")
+    model=LiteLlm("gemini/gemini-2.0-flash")
 )
 
 capacity_agent = Agent(
@@ -466,7 +466,7 @@ capacity_agent = Agent(
    # - Keep the assessment structured, efficient, and rapid
    # - Always conclude with gratitude for the department's participation and time
    # """,
-   model="gemini-2.5-flash",
+   model="gemini-2.0-flash",
    tools=[],
 )
 
@@ -735,7 +735,7 @@ risk_agent = Agent(
    # - "Student placement risks are critical in health programs. Have you considered the impact of industry partner capacity constraints on clinical placements?"
    # - "With remote learning increasing, cybersecurity risks have escalated. What controls do you have for protecting student data in online environments?"
    # """,
-   model="gemini-2.5-flash"
+   model="gemini-2.0-flash"
 )
 
 engagement_agent = Agent(
@@ -985,7 +985,7 @@ engagement_agent = Agent(
    # Sample Plan Response Format:
    # "[PLAN_GENERATED] Based on our discussion, here's your comprehensive stakeholder engagement strategy..."
    # """,
-   model="gemini-2.5-flash"
+   model="gemini-2.0-flash"
 )
 
 external_stakeholder_agent = Agent(
@@ -1149,7 +1149,7 @@ external_stakeholder_agent = Agent(
    ## Output Requirement
    Always conclude stakeholder engagement sessions with a structured HTML report starting with [PLAN_GENERATED], summarizing all captured data, insights, and actionable recommendations for TAFE NSW SWS consideration.
    """,
-   model="gemini-2.5-flash"
+   model="gemini-2.0-flash"
 )
 
 
@@ -1159,5 +1159,5 @@ external_stakeholder_agent = Agent(
 #    instruction="""
 #    This agent is responsible for engaging with delivery staff to gather insights and feedback on training effectiveness, operational challenges, and workforce needs.
 #    """,
-#    model="gemini-2.5-flash"
+#    model="gemini-2.0-flash"
 # )

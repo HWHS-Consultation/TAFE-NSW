@@ -321,7 +321,7 @@ delivery_staff_agent = Agent(
     - Skip redundant questions when information is already known
 
     Available questions: """ + str(load_questions()),
-    model="gemini-2.5-flash",
+    model="gemini-2.0-flash",
 )
 
 def get_agent_response_for_question(question_id, context=None):
