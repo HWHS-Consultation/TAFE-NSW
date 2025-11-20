@@ -74,18 +74,15 @@ const DeliveryStaff = ({ onBack }) => {
       let aiResult;
       if (sessionId) {
         // Use delivery specialist agent if session exists
-        const response = await aiService.sendDeliveryStaffMessage({
-          userMessage,
-          sessionId,
-          context: {
-            conversationHistory: conversationHistory,
-            deliveryPlan: deliveryPlan,
-            staffInfo: staffInfo
-          }
+        const response = await aiService.sendDeliveryStaffMessage(userMessage, {
+          conversationHistory: conversationHistory,
+          deliveryPlan: deliveryPlan,
+          staffInfo: staffInfo,
+          sessionId: sessionId
         });
         
         aiResult = {
-          response: response.message,
+          response: response.response,
           insights: response.insights || []
         };
       } else {

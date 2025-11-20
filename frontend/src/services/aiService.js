@@ -201,6 +201,48 @@ export class AIService {
     }
   }
 
+  async sendDeliveryStaffMessage(userMessage, context) {
+    try {
+      const payload = { 
+        message: userMessage, 
+        context: context 
+      };
+      
+      // Add session_id if available
+      if (context && context.sessionId) {
+        payload.session_id = context.sessionId;
+      }
+
+      const response = await fetch(`${BACKEND_URL}/delivery_staff_agent`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      return {
+        response: data.message,
+        insights: [], // Backend agent doesn't provide insights in this format
+        followUpQuestions: [], // Backend agent doesn't provide follow-up questions in this format
+        data: data.data,
+        sessionId: data.session_id
+      };
+    } catch (error) {
+      console.error('Delivery Staff Agent API Error:', error);
+      return {
+        response: "I'm having trouble connecting to the delivery staff agent right now. Please try again later.",
+        insights: [],
+        followUpQuestions: []
+      };
+    }
+  }
+
   getPersonaPrompt(persona, context) {
     const personas = {
       riley: `You are Riley, a strategic priority consultant for TAFE NSW.
