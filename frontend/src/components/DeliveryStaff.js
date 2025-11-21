@@ -28,9 +28,96 @@ const DeliveryStaff = ({ onBack }) => {
   const aiService = new AIService();
   const dataService = new DataService();
 
+  // Message formatting component
+  const FormattedMessage = ({ message }) => {
+    if (!message) return null;
+
+    // Convert escaped \n to real newlines
+    const text = message.replace(/\\n/g, '\n');
+
+    // Function to handle inline formatting: bold (**text**) and italic (*text*)
+    const formatInlineText = (str) => {
+      const parts = str.split(/(\*\*.*?\*\*|\*.*?\*)/g);
+      return parts.map((part, index) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+          return <strong key={index}>{part.slice(2, -2)}</strong>;
+        }
+        if (part.startsWith('*') && part.endsWith('*')) {
+          return <em key={index}>{part.slice(1, -1)}</em>;
+        }
+        return part;
+      });
+    };
+
+    // Split into paragraphs by double newlines
+    const paragraphs = text.split(/\n\n+/);
+
+    return (
+      <div className="space-y-3">
+        {paragraphs.map((para, pIndex) => {
+          // Detect numbered heading (e.g., "1. Address Instructor Staffing Gap:")
+          const headingMatch = para.match(/^(\d+)\.\s+(.+)/s);
+          if (headingMatch) {
+            const number = headingMatch[1];
+            const restText = headingMatch[2];
+
+            // Split restText by sub-bullets (* or -)
+            const lines = restText.split('\n').map(l => l.trim()).filter(Boolean);
+            const mainText = [];
+            const bullets = [];
+
+            lines.forEach(line => {
+              if (line.startsWith('*') || line.startsWith('-')) {
+                bullets.push(line.replace(/^[\*\-\s]+/, ''));
+              } else {
+                mainText.push(line);
+              }
+            });
+
+            return (
+              <div key={pIndex} className="mb-4">
+                <p className="font-bold text-gray-900 mb-2">
+                  {number}. {formatInlineText(mainText.join(' '))}
+                </p>
+                {bullets.length > 0 && (
+                  <ul className="list-disc ml-6 space-y-1">
+                    {bullets.map((b, idx) => (
+                      <li key={idx} className="text-sm">
+                        {formatInlineText(b)}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            );
+          }
+
+          // Detect normal bulleted list paragraph
+          if (para.startsWith('*') || para.startsWith('-')) {
+            const items = para.split('\n').map(l => l.replace(/^[\*\-\s]+/, '').trim());
+            return (
+              <ul key={pIndex} className="list-disc ml-6 space-y-1">
+                {items.map((item, idx) => (
+                  <li key={idx} className="text-sm">{formatInlineText(item)}</li>
+                ))}
+              </ul>
+            );
+          }
+
+          // Regular paragraph
+          return (
+            <p key={pIndex} className="leading-relaxed text-gray-900">
+              {formatInlineText(para)}
+            </p>
+          );
+        })}
+      </div>
+    );
+  };
+
   const scrollToBottom = () => {
-    if (messagesEndRef.current) {
-      messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
+    if (messagesEndRef.current && messagesContainerRef.current) {
+      messagesEndRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
     }
   };
 
@@ -45,85 +132,120 @@ const DeliveryStaff = ({ onBack }) => {
     }
 
     setCurrentStep('conversation');
-    // Changes in the startConversation function
-    const welcomeMessage = {
-      sender: 'ai',
-      message: `G'day ${staffInfo.name}! I'm Riva, your delivery specialist. I'm here to help you plan and optimize project delivery for ${staffInfo.department}.
-
-    Let's start by understanding your current projects and delivery challenges. Could you tell me about the key projects you're currently working on or planning to deliver soon?`,
-      timestamp: new Date()
-    };
-    setConversationHistory([welcomeMessage]);
-  };
-
-  const handleUserResponse = async () => {
-    if (!userResponse.trim() || isLoading) return;
-
-    const userMessage = userResponse;
-    setUserResponse('');
     setIsLoading(true);
 
-    // Add user message to conversation
-    setConversationHistory(prev => [...prev, {
-      sender: 'user',
-      message: userMessage,
-      timestamp: new Date()
-    }]);
+    // Create initial context for the delivery staff agent
+    const context = {
+      user_id: staffInfo.email || staffInfo.name.toLowerCase().replace(/\s+/g, '_'),
+      department: staffInfo.department,
+      role: staffInfo.role,
+      name: staffInfo.name,
+      conversationHistory: []
+    };
 
     try {
-      let aiResult;
-      if (sessionId) {
-        // Use delivery specialist agent if session exists
-        const response = await aiService.sendDeliveryStaffMessage(userMessage, {
-          conversationHistory: conversationHistory,
-          deliveryPlan: deliveryPlan,
-          staffInfo: staffInfo,
-          sessionId: sessionId
-        });
-        
-        aiResult = {
-          response: response.response,
-          insights: response.insights || []
-        };
-      } else {
-        // Fallback to original service
-        aiResult = await aiService.generateResponse(
-          userMessage,
-          staffInfo,
-          'riva'
-        );
-      }
+      // Send initial message to delivery staff agent
+      const aiResult = await aiService.sendDeliveryStaffMessage(
+        `Hello, I'm ${staffInfo.name}, ${staffInfo.role} from ${staffInfo.department}. I'd like to start delivery staff planning.`,
+        context
+      );
 
-      const updatedConversation = [
-        ...conversationHistory,
-        { sender: 'user', message: userMessage, timestamp: new Date() },
-        {
-          sender: 'ai',
-          message: aiResult.response,
-          timestamp: new Date(),
-          insights: aiResult.insights
-        }
-      ];
-      setConversationHistory(updatedConversation);
+      setSessionId(aiResult.sessionId);
 
-      // Extract delivery plan elements
-      extractDeliveryElements(userMessage, aiResult.response);
+      const welcomeMessage = {
+        sender: 'ai',
+        message: aiResult.response,
+        timestamp: new Date()
+      };
+      setConversationHistory([welcomeMessage]);
 
     } catch (error) {
-      console.error('Error getting AI response:', error);
-      setConversationHistory(prev => [...prev, {
+      console.error('Error starting conversation:', error);
+      const fallbackMessage = {
         sender: 'ai',
-        message: 'I apologize, but I encountered an error. Please try again.',
+        message: `G'day ${staffInfo.name}! I'm Riva, your delivery specialist. I'm here to help you plan and optimize project delivery for ${staffInfo.department}. Let's start by understanding your current projects and delivery challenges. Could you tell me about the key projects you're currently working on or planning to deliver soon?`,
         timestamp: new Date()
-      }]);
+      };
+      setConversationHistory([fallbackMessage]);
     }
 
     setIsLoading(false);
   };
 
-  const extractDeliveryElements = (userMessage, aiResponse) => {
+  const handleUserResponse = async () => {
+    if (!userResponse.trim() || isLoading) return;
+
+    setIsLoading(true);
+    
+    const newConversation = [
+      ...conversationHistory,
+      { sender: 'user', message: userResponse, timestamp: new Date() }
+    ];
+    setConversationHistory(newConversation);
+
+    try {
+      // Create context with conversation history for delivery staff agent
+      const context = {
+        user_id: staffInfo.email || staffInfo.name.toLowerCase().replace(/\s+/g, '_'),
+        department: staffInfo.department,
+        role: staffInfo.role,
+        name: staffInfo.name,
+        conversationHistory: newConversation.map(msg => ({
+          sender: msg.sender,
+          message: msg.message
+        }))
+      };
+
+      const aiResult = await aiService.sendDeliveryStaffMessage(
+        userResponse,
+        context
+      );
+
+      // Update session ID if provided
+      if (aiResult.sessionId) {
+        setSessionId(aiResult.sessionId);
+      }
+
+      const updatedConversation = [
+        ...newConversation,
+        {
+          sender: 'ai',
+          message: aiResult.response,
+          timestamp: new Date(),
+          insights: aiResult.insights,
+          data: aiResult.data
+        }
+      ];
+      setConversationHistory(updatedConversation);
+
+      // Extract delivery plan elements
+      extractDeliveryElements(userResponse, aiResult.response, aiResult.data);
+
+    } catch (error) {
+      console.error('Error getting AI response:', error);
+      const errorConversation = [
+        ...newConversation,
+        {
+          sender: 'ai',
+          message: "I apologize, but I'm having trouble processing your response right now. Could you please try again?",
+          timestamp: new Date()
+        }
+      ];
+      setConversationHistory(errorConversation);
+    }
+
+    setUserResponse('');
+    setIsLoading(false);
+  };
+
+  const extractDeliveryElements = (userMessage, aiResponse, agentData = null) => {
     const combined = userMessage + ' ' + aiResponse;
     const plan = { ...deliveryPlan };
+
+    // Use agent data if available from the backend
+    if (agentData && agentData.conversation_stage) {
+      console.log('Delivery planning stage:', agentData.conversation_stage);
+    }
 
     // Extract project information
     if (combined.toLowerCase().includes('project') || combined.toLowerCase().includes('initiative')) {
@@ -255,6 +377,17 @@ const DeliveryStaff = ({ onBack }) => {
   };
 
   const exportData = () => {
+    // Get the last AI response from Riva
+    const lastAiMessage = conversationHistory
+      .filter(msg => msg.sender === 'ai')
+      .pop();
+
+    if (!lastAiMessage) {
+      alert('No assessment data to export yet.');
+      return;
+    }
+
+    // Create HTML content for PDF (if html2pdf is available) or JSON export
     const exportData = {
       staff: staffInfo,
       consultation_type: 'delivery_staff',
@@ -398,7 +531,13 @@ const DeliveryStaff = ({ onBack }) => {
                     {msg.sender === 'ai' && (
                       <div className="text-xs text-gray-600 mb-1">Riva</div>
                     )}
-                    <div className="text-sm">{msg.message}</div>
+                    <div className="text-sm">
+                      {msg.sender === 'ai' ? (
+                        <FormattedMessage message={msg.message} />
+                      ) : (
+                        msg.message
+                      )}
+                    </div>
                   </div>
                 </div>
               ))}

@@ -243,6 +243,48 @@ export class AIService {
     }
   }
 
+  async sendExternalStakeholderMessage(userMessage, context) {
+    try {
+      const payload = { 
+        message: userMessage, 
+        context: context 
+      };
+      
+      // Add session_id if available
+      if (context && context.sessionId) {
+        payload.session_id = context.sessionId;
+      }
+
+      const response = await fetch(`${BACKEND_URL}/external_stakeholder_agent`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      return {
+        response: data.message,
+        insights: [], // Backend agent doesn't provide insights in this format
+        followUpQuestions: [], // Backend agent doesn't provide follow-up questions in this format
+        data: data.data,
+        sessionId: data.session_id
+      };
+    } catch (error) {
+      console.error('External Stakeholder Agent API Error:', error);
+      return {
+        response: "I'm having trouble connecting to the external stakeholder agent right now. Please try again later.",
+        insights: [],
+        followUpQuestions: []
+      };
+    }
+  }
+
   getPersonaPrompt(persona, context) {
     const personas = {
       riley: `You are Riley, a strategic priority consultant for TAFE NSW.
